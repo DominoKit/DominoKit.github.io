@@ -5465,6 +5465,10 @@ section.content {
     border-left: 1px solid rgba(0, 0, 0, 0.08) !important;
 }
 
+.btn-group .btn-default.dropdown-toggle i {
+    color: #333 !important;
+}
+
 /* Bootstrap Tags Input ======================== */
 .bootstrap-tagsinput {
     -webkit-box-shadow: none !important;
@@ -12217,6 +12221,9 @@ a.disabled {
 
 .calendar .footer .btn{
     text-transform: uppercase;
+    text-overflow: ellipsis;
+    max-width: 85px;
+    padding: 2px;
 }
 
 .calendar .clear-button {
@@ -13432,6 +13439,9 @@ box-shadow: 0px 1px transparent !important;
 
 .time-picker .footer .btn{
     text-transform: uppercase;
+    text-overflow: ellipsis;
+    max-width: 85px;
+    padding: 2px;
 }
 
 .time-picker .clear-button {
