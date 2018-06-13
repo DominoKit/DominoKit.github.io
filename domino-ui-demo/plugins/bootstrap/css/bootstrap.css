@@ -2301,7 +2301,7 @@ th {
 .table-condensed > thead > tr > td,
 .table-condensed > tbody > tr > td,
 .table-condensed > tfoot > tr > td {
-  padding: 5px !important;
+  padding: 5px;
 }
 .table-bordered {
   border: 1px solid #ddd;
@@ -3588,7 +3588,7 @@ tbody.collapse.in {
   background-image: none;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
-.open .dropdown-menu {
+.open > .dropdown-menu {
   display: block;
 }
 .open > a {
