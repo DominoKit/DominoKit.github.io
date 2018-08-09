@@ -13791,5 +13791,11 @@ a.disabled {
 
 .material-icons{
     font-feature-settings: 'liga’;
+}
 
+.select-span {
+    position: absolute !important;
+    top: 6px !important;
+    left: 0 !important;
+    padding-right: 25px;
 }
