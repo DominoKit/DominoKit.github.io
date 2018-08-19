@@ -1,0 +1,2 @@
+[
+"Last build on : ${maven.build.timestamp}"]
