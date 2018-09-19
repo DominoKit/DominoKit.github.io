@@ -71,19 +71,19 @@
 
 @media only screen and (max-width: 600px) {
     .content-panel {
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-        margin-right: 0px !important;
-        margin-left: 0px !important;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 }
 
 @media only screen and (min-width: 601px) {
     .content-panel {
-        padding-right: 15px !important;
-        padding-left: 15px !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
@@ -7233,4 +7233,39 @@ a.disabled {
     .show-on-small-and-down {
         display: block !important
     }
+}
+
+.opacity-l-0{
+    opacity: 0;
+}
+.opacity-l-1{
+    opacity: 0.1;
+}
+.opacity-l-2{
+    opacity: 0.2;
+}
+.opacity-l-3{
+    opacity: 0.3;
+}
+.opacity-l-4{
+    opacity: 0.4;
+}
+.opacity-l-5{
+    opacity: 0.5;
+}
+.opacity-l-6{
+    opacity: 0.6;
+}
+.opacity-l-7{
+    opacity: 0.7;
+}
+.opacity-l-8{
+    opacity: 0.8;
+}
+.opacity-l-9{
+    opacity: 0.9;
+}
+
+.opacity-l-full{
+    opacity: 1;
 }
