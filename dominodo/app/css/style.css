@@ -1,5 +1,9 @@
 ﻿/* Navbar ====================================== */
 
+body.modal-open{
+    overflow: hidden;
+}
+
 .navbar {
     font-family: "Roboto", sans-serif;
     -webkit-border-radius: 0;
@@ -7619,5 +7623,6 @@ a.disabled {
 
 .logo-in img {
     margin-left: 40px;
+    left: 25px;
     position: absolute;
 }
