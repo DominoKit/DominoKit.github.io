@@ -90,7 +90,7 @@
 
 @media only screen and (min-width: 992px) {
     .task-modal .modal-body{
-        max-height: 700px;
+        max-height: calc(100vh - 235px);
     }
 }
 
@@ -107,4 +107,9 @@
 
 section.content{
     min-height: 870px;
+}
+
+.menu-flow{
+    height: calc(100vh - 70px);
+    overflow-y: auto;
 }
