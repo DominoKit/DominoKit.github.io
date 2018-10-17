@@ -4623,6 +4623,29 @@ a.list-group-item:not([class*="bg-"]):not([class*="-success"]):not([class*="-dan
     color: #555;
 }
 
+.pagination > li:first-child > a,
+.pagination > li:last-child > a {
+    width: auto;
+    height: 32px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+
+.pagination > li:first-child > a .material-icons,
+.pagination > li:last-child > a .material-icons {
+    position: relative;
+    bottom: 2px;
+    width: 24px;
+}
+
+.pagination-sm > li:first-child > a,
+.pagination-sm > li:last-child > a {
+    width: 28px;
+    height: 28px;
+}
+
 .pagination-sm > li:first-child > a .material-icons,
 .pagination-sm > li:last-child > a .material-icons {
     position: relative;
@@ -7698,7 +7721,6 @@ a.disabled {
 
 .clickable-icon:HOVER {
     opacity: 0.8;
-    background-color: #efefef;
 }
 
 /* =========================== Horizontal spin ======================== */

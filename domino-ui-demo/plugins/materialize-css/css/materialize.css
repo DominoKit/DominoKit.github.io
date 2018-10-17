@@ -2743,7 +2743,7 @@ video.responsive-video {
   height: auto;
 }
 
-.pagination .page {
+.pagination li {
   display: inline-block;
   border-radius: 2px;
   text-align: center;
@@ -2751,33 +2751,32 @@ video.responsive-video {
   height: 30px;
 }
 
-.pagination .page a {
+.pagination li a {
   color: #444;
   display: inline-block;
   font-size: 1.2rem;
   padding: 0 10px;
   line-height: 30px;
-  margin-top: 5px;
 }
 
-.pagination .page.active a {
+.pagination li.active a {
   color: #fff;
 }
 
-.pagination .page.active {
+.pagination li.active {
   background-color: #ee6e73;
 }
 
-.pagination .page.disabled a {
+.pagination li.disabled a {
   cursor: default;
   color: #999;
 }
 
-.pagination .page i {
+.pagination li i {
   font-size: 2rem;
 }
 
-.pagination .page.pages ul li {
+.pagination li.pages ul li {
   display: inline-block;
   float: none;
 }
