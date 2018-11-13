@@ -3,7 +3,7 @@ var __gwtModuleFunction = $wnd.app;
 var $sendStats = __gwtModuleFunction.__sendStats;
 $sendStats('moduleStartup', 'moduleEvalStart');
 var $gwt_version = "2.8.2";
-var $strongName = '39E8066FE93B65A7683D31A08E750D1D';
+var $strongName = '299D1714753F9ED13578504D26E7B32D';
 var $gwt = {};
 var $doc = $wnd.document;
 var $moduleName, $moduleBase;
@@ -22,7 +22,7 @@ var $stats = $wnd.__gwtStatsEvent ? function(a) {
 return $wnd.__gwtStatsEvent && $wnd.__gwtStatsEvent(a);
 } : null;
 var $sessionId = $wnd.__gwtStatsSessionId ? $wnd.__gwtStatsSessionId : null;
-var $intern_0 = 2147483647, $intern_1 = {4:1, 6:1, 5:1, 386:1}, $intern_2 = {4:1, 6:1, 5:1}, $intern_3 = {4:1, 65:1, 53:1, 54:1}, $intern_4 = {4:1}, $intern_5 = {4:1, 5:1}, $intern_6 = {312:1, 344:1}, $intern_7 = {207:1}, $intern_8 = {194:1, 4:1, 65:1, 54:1}, $intern_9 = {4:1, 6:1, 9:1, 7:1, 5:1, 8:1}, $intern_10 = 4194303, $intern_11 = 1048575, $intern_12 = 524288, $intern_13 = 4194304, $intern_14 = 17592186044416, $intern_15 = 1000000000, $intern_16 = -17592186044416, $intern_17 = {241:1}, $intern_18 = 1000, $intern_19 = {208:1}, $intern_20 = {4:1, 219:1, 54:1}, $intern_21 = {343:1}, $intern_22 = {4:1, 66:1, 50:1}, $intern_23 = {4:1, 66:1, 99:1, 201:1}, $intern_24 = {4:1, 6:1, 7:1, 5:1}, $intern_25 = {4:1, 66:1, 186:1, 201:1}, $intern_26 = 65535, $intern_27 = {110:1}, $intern_28 = {184:1}, $intern_29 = 3066, $intern_30 = {110:1, 162:1}, $intern_31 = 3062, $intern_32 = {110:1, 57:1}, $intern_33 = {4:1, 110:1, 57:1, 434:1}, $intern_34 = {4:1, 184:1}, $intern_35 = {4:1, 66:1, 75:1}, $intern_36 = {4:1, 110:1, 155:1, 162:1}, $intern_37 = {4:1, 110:1, 57:1}, $intern_38 = 3060, $intern_39 = -2147483648, $intern_40 = {4:1, 5:1, 3028:1}, $intern_41 = {36:1}, $intern_42 = {43:1}, $intern_43 = {3032:1}, $intern_44 = {273:1};
+var $intern_0 = 2147483647, $intern_1 = {4:1, 6:1, 5:1, 386:1}, $intern_2 = {4:1, 6:1, 5:1}, $intern_3 = {4:1, 65:1, 53:1, 54:1}, $intern_4 = {4:1}, $intern_5 = {4:1, 5:1}, $intern_6 = {312:1, 345:1}, $intern_7 = {207:1}, $intern_8 = {194:1, 4:1, 65:1, 54:1}, $intern_9 = {4:1, 6:1, 9:1, 7:1, 5:1, 8:1}, $intern_10 = 4194303, $intern_11 = 1048575, $intern_12 = 524288, $intern_13 = 4194304, $intern_14 = 17592186044416, $intern_15 = 1000000000, $intern_16 = -17592186044416, $intern_17 = {241:1}, $intern_18 = 1000, $intern_19 = {208:1}, $intern_20 = {4:1, 219:1, 54:1}, $intern_21 = {344:1}, $intern_22 = {4:1, 66:1, 50:1}, $intern_23 = {4:1, 66:1, 99:1, 201:1}, $intern_24 = {4:1, 6:1, 7:1, 5:1}, $intern_25 = {4:1, 66:1, 186:1, 201:1}, $intern_26 = 65535, $intern_27 = {110:1}, $intern_28 = {184:1}, $intern_29 = 3066, $intern_30 = {110:1, 162:1}, $intern_31 = 3062, $intern_32 = {110:1, 57:1}, $intern_33 = {4:1, 110:1, 57:1, 434:1}, $intern_34 = {4:1, 184:1}, $intern_35 = {4:1, 66:1, 75:1}, $intern_36 = {4:1, 110:1, 155:1, 162:1}, $intern_37 = {4:1, 110:1, 57:1}, $intern_38 = 3060, $intern_39 = -2147483648, $intern_40 = {4:1, 5:1, 3028:1}, $intern_41 = {36:1}, $intern_42 = {43:1}, $intern_43 = {3032:1}, $intern_44 = {273:1};
 var _, prototypesByTypeId_0, initFnList_0, permutationId = -1;
 function create_com_google_gwt_useragent_client_UserAgent(){
   switch (permutationId) {
@@ -1611,7 +1611,7 @@ function $clinit_StackTraceCreator(){
   var c, enforceLegacy;
   enforceLegacy = !supportsErrorStack();
   c = castTo(create_com_google_gwt_core_client_impl_StackTraceCreator_Collector(), 312);
-  collector_1 = instanceOf(c, 344) && enforceLegacy?new StackTraceCreator$CollectorLegacy:c;
+  collector_1 = instanceOf(c, 345) && enforceLegacy?new StackTraceCreator$CollectorLegacy:c;
 }
 
 function captureStackTrace(error){
@@ -1738,7 +1738,7 @@ function $parse(this$static, stString){
 function StackTraceCreator$CollectorModern(){
 }
 
-defineClass(344, 312, $intern_6, StackTraceCreator$CollectorModern);
+defineClass(345, 312, $intern_6, StackTraceCreator$CollectorModern);
 _.collect = function collect_1(error){
 }
 ;
@@ -1763,11 +1763,11 @@ _.getStackTrace = function getStackTrace_0(t){
   return stackTrace;
 }
 ;
-var Lcom_google_gwt_core_client_impl_StackTraceCreator$CollectorModern_2_classLit = createForClass('com.google.gwt.core.client.impl', 'StackTraceCreator/CollectorModern', 344);
+var Lcom_google_gwt_core_client_impl_StackTraceCreator$CollectorModern_2_classLit = createForClass('com.google.gwt.core.client.impl', 'StackTraceCreator/CollectorModern', 345);
 function StackTraceCreator$CollectorModernNoSourceMap(){
 }
 
-defineClass(630, 344, $intern_6, StackTraceCreator$CollectorModernNoSourceMap);
+defineClass(630, 345, $intern_6, StackTraceCreator$CollectorModernNoSourceMap);
 _.createSte = function createSte_0(fileName, method, line, col){
   return new StackTraceElement(method, fileName, -1);
 }
@@ -2157,12 +2157,12 @@ function RequestBuilder$Method(name_0){
   this.name_0 = name_0;
 }
 
-defineClass(319, 1, {}, RequestBuilder$Method);
+defineClass(320, 1, {}, RequestBuilder$Method);
 _.toString_0 = function toString_3(){
   return this.name_0;
 }
 ;
-var Lcom_google_gwt_http_client_RequestBuilder$Method_2_classLit = createForClass('com.google.gwt.http.client', 'RequestBuilder/Method', 319);
+var Lcom_google_gwt_http_client_RequestBuilder$Method_2_classLit = createForClass('com.google.gwt.http.client', 'RequestBuilder/Method', 320);
 function RequestException(message){
   Exception.call(this, message);
 }
@@ -2494,12 +2494,12 @@ function unwrap_4(value_0){
   return value_0.value_0;
 }
 
-defineClass(320, 3075, {320:1}, JSONString);
+defineClass(321, 3075, {321:1}, JSONString);
 _.equals_0 = function equals_3(other){
-  if (!instanceOf(other, 320)) {
+  if (!instanceOf(other, 321)) {
     return false;
   }
-  return $equals_0(this.value_0, castTo(other, 320).value_0);
+  return $equals_0(this.value_0, castTo(other, 321).value_0);
 }
 ;
 _.getUnwrapper = function getUnwrapper_4(){
@@ -2514,7 +2514,7 @@ _.toString_0 = function toString_9(){
   return escapeValue(this.value_0);
 }
 ;
-var Lcom_google_gwt_json_client_JSONString_2_classLit = createForClass('com.google.gwt.json.client', 'JSONString', 320);
+var Lcom_google_gwt_json_client_JSONString_2_classLit = createForClass('com.google.gwt.json.client', 'JSONString', 321);
 function canSet(array, value_0){
   var elementTypeCategory;
   switch (getElementTypeCategory(array)) {
@@ -3557,7 +3557,7 @@ function $onModuleLoad_0(){
 
 function $clinit_Window(){
   $clinit_Window = emptyMethod;
-  impl_3 = castTo(create_com_google_gwt_user_client_impl_WindowImpl(), 318);
+  impl_3 = castTo(create_com_google_gwt_user_client_impl_WindowImpl(), 319);
 }
 
 var impl_3;
@@ -3664,16 +3664,16 @@ var Lcom_google_gwt_user_client_impl_DOMImplWebkit_2_classLit = createForClass('
 function WindowImpl(){
 }
 
-defineClass(318, 1, {318:1}, WindowImpl);
+defineClass(319, 1, {319:1}, WindowImpl);
 _.getQueryString = function getQueryString(){
   return $wnd.location.search;
 }
 ;
-var Lcom_google_gwt_user_client_impl_WindowImpl_2_classLit = createForClass('com.google.gwt.user.client.impl', 'WindowImpl', 318);
+var Lcom_google_gwt_user_client_impl_WindowImpl_2_classLit = createForClass('com.google.gwt.user.client.impl', 'WindowImpl', 319);
 function WindowImplIE(){
 }
 
-defineClass(1163, 318, {318:1}, WindowImplIE);
+defineClass(1163, 319, {319:1}, WindowImplIE);
 _.getQueryString = function getQueryString_0(){
   var href_0 = $wnd.location.href;
   var hashLoc = href_0.indexOf('#');
@@ -3686,11 +3686,11 @@ var Lcom_google_gwt_user_client_impl_WindowImplIE_2_classLit = createForClass('c
 function WindowImplMozilla(){
 }
 
-defineClass(1164, 318, {318:1}, WindowImplMozilla);
+defineClass(1164, 319, {319:1}, WindowImplMozilla);
 var Lcom_google_gwt_user_client_impl_WindowImplMozilla_2_classLit = createForClass('com.google.gwt.user.client.impl', 'WindowImplMozilla', 1164);
 function assertCompileTimeUserAgent(){
   var compileTimeValue, impl, runtimeValue;
-  impl = castTo(create_com_google_gwt_useragent_client_UserAgent(), 343);
+  impl = castTo(create_com_google_gwt_useragent_client_UserAgent(), 344);
   compileTimeValue = impl.getCompileTimeValue();
   runtimeValue = impl.getRuntimeValue();
   if (!$equals_0(compileTimeValue, runtimeValue)) {
@@ -4015,8 +4015,8 @@ function ArithmeticException(explanation){
   RuntimeException_0.call(this, explanation);
 }
 
-defineClass(345, 53, $intern_3, ArithmeticException);
-var Ljava_lang_ArithmeticException_2_classLit = createForClass('java.lang', 'ArithmeticException', 345);
+defineClass(346, 53, $intern_3, ArithmeticException);
+var Ljava_lang_ArithmeticException_2_classLit = createForClass('java.lang', 'ArithmeticException', 346);
 function IndexOutOfBoundsException_0(message){
   RuntimeException_0.call(this, message);
 }
@@ -5007,7 +5007,7 @@ function $setValue(this$static, value_0){
   return oldValue;
 }
 
-defineClass(315, 1, {315:1, 86:1});
+defineClass(316, 1, {316:1, 86:1});
 _.equals_0 = function equals_16(other){
   var entry;
   if (!instanceOf(other, 86)) {
@@ -5037,13 +5037,13 @@ _.toString_0 = function toString_28(){
   return this.key_0 + '=' + this.value_0;
 }
 ;
-var Ljava_util_AbstractMap$AbstractEntry_2_classLit = createForClass('java.util', 'AbstractMap/AbstractEntry', 315);
+var Ljava_util_AbstractMap$AbstractEntry_2_classLit = createForClass('java.util', 'AbstractMap/AbstractEntry', 316);
 function AbstractMap$SimpleEntry(key, value_0){
   this.key_0 = key;
   this.value_0 = value_0;
 }
 
-defineClass(242, 315, {315:1, 242:1, 86:1}, AbstractMap$SimpleEntry);
+defineClass(242, 316, {316:1, 242:1, 86:1}, AbstractMap$SimpleEntry);
 var Ljava_util_AbstractMap$SimpleEntry_2_classLit = createForClass('java.util', 'AbstractMap/SimpleEntry', 242);
 defineClass(3071, 1, {86:1});
 _.equals_0 = function equals_17(other){
@@ -7861,15 +7861,15 @@ function RequestHolder(requestName, presenterName){
   this.presenterName = presenterName;
 }
 
-defineClass(317, 1, {317:1}, RequestHolder);
+defineClass(318, 1, {318:1}, RequestHolder);
 _.equals_0 = function equals_30(other){
   if (this === other)
     return true;
   if (other == null || Lorg_dominokit_domino_api_client_request_RequestHolder_2_classLit != getClass__Ljava_lang_Class___devirtual$(other))
     return false;
-  if (!$equals_0(this.requestName, castTo(other, 317).requestName))
+  if (!$equals_0(this.requestName, castTo(other, 318).requestName))
     return false;
-  return $equals_0(this.presenterName, castTo(other, 317).presenterName);
+  return $equals_0(this.presenterName, castTo(other, 318).presenterName);
 }
 ;
 _.hashCode_1 = function hashCode_31(){
@@ -7879,7 +7879,7 @@ _.hashCode_1 = function hashCode_31(){
   return result;
 }
 ;
-var Lorg_dominokit_domino_api_client_request_RequestHolder_2_classLit = createForClass('org.dominokit.domino.api.client.request', 'RequestHolder', 317);
+var Lorg_dominokit_domino_api_client_request_RequestHolder_2_classLit = createForClass('org.dominokit.domino.api.client.request', 'RequestHolder', 318);
 var Lorg_dominokit_domino_api_shared_extension_MainDominoEvent_2_classLit = createForInterface('org.dominokit.domino.api.shared.extension', 'MainDominoEvent');
 function HistoryToken$TokenCannotBeNullException(){
   RuntimeException.call(this);
@@ -8398,24 +8398,24 @@ function InMemoryDominoEventsListenerRepository$ListenerWrapper(dominoEventListe
   this.dominoEventListener = dominoEventListener;
 }
 
-defineClass(346, 1, {346:1}, InMemoryDominoEventsListenerRepository$ListenerWrapper);
+defineClass(347, 1, {347:1}, InMemoryDominoEventsListenerRepository$ListenerWrapper);
 _.equals_0 = function equals_31(other){
   if (other == null)
     return false;
-  return $equals_0($getCanonicalName(getClass__Ljava_lang_Class___devirtual$(this.dominoEventListener)), $getCanonicalName(getClass__Ljava_lang_Class___devirtual$(castTo(other, 346).dominoEventListener)));
+  return $equals_0($getCanonicalName(getClass__Ljava_lang_Class___devirtual$(this.dominoEventListener)), $getCanonicalName(getClass__Ljava_lang_Class___devirtual$(castTo(other, 347).dominoEventListener)));
 }
 ;
 _.hashCode_1 = function hashCode_32(){
   return getHashCode_1($getCanonicalName(getClass__Ljava_lang_Class___devirtual$(this.dominoEventListener)));
 }
 ;
-var Lorg_dominokit_domino_client_commons_extensions_InMemoryDominoEventsListenerRepository$ListenerWrapper_2_classLit = createForClass('org.dominokit.domino.client.commons.extensions', 'InMemoryDominoEventsListenerRepository/ListenerWrapper', 346);
+var Lorg_dominokit_domino_client_commons_extensions_InMemoryDominoEventsListenerRepository$ListenerWrapper_2_classLit = createForClass('org.dominokit.domino.client.commons.extensions', 'InMemoryDominoEventsListenerRepository/ListenerWrapper', 347);
 function InMemoryDominoEventsListenerRepository$lambda$0$Type(){
 }
 
 defineClass(885, 1, {}, InMemoryDominoEventsListenerRepository$lambda$0$Type);
 _.apply_1 = function apply_10(arg0){
-  return castTo(arg0, 346).dominoEventListener;
+  return castTo(arg0, 347).dominoEventListener;
 }
 ;
 var Lorg_dominokit_domino_client_commons_extensions_InMemoryDominoEventsListenerRepository$lambda$0$Type_2_classLit = createForClass('org.dominokit.domino.client.commons.extensions', 'InMemoryDominoEventsListenerRepository/lambda$0$Type', 885);
@@ -9439,8 +9439,8 @@ function StateHistory$DominoHistoryState(token, data_0){
   this.data_0 = data_0;
 }
 
-defineClass(347, 1, {}, StateHistory$DominoHistoryState);
-var Lorg_dominokit_domino_gwt_client_history_StateHistory$DominoHistoryState_2_classLit = createForClass('org.dominokit.domino.gwt.client.history', 'StateHistory/DominoHistoryState', 347);
+defineClass(315, 1, {}, StateHistory$DominoHistoryState);
+var Lorg_dominokit_domino_gwt_client_history_StateHistory$DominoHistoryState_2_classLit = createForClass('org.dominokit.domino.gwt.client.history', 'StateHistory/DominoHistoryState', 315);
 function StateHistory$lambda$0$Type($$outer_0){
   this.$$outer_0 = $$outer_0;
 }
@@ -11720,6 +11720,6 @@ $sendStats('moduleStartup', 'moduleEvalEnd');
 gwtOnLoad(__gwtModuleFunction.__errFn, __gwtModuleFunction.__moduleName, __gwtModuleFunction.__moduleBase, __gwtModuleFunction.__softPermutationId,__gwtModuleFunction.__computePropValue);
 $sendStats('moduleStartup', 'end');
 $gwt && $gwt.permProps && __gwtModuleFunction.__moduleStartupDone($gwt.permProps);
-//# sourceMappingURL=static/gwt/extra/app/symbolMaps/39E8066FE93B65A7683D31A08E750D1D_sourceMap0.json 
+//# sourceMappingURL=static/gwt/extra/app/symbolMaps/299D1714753F9ED13578504D26E7B32D_sourceMap0.json 
 //# sourceURL=app-0.js
 
