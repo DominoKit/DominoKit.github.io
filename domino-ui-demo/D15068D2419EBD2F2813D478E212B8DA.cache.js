@@ -3,7 +3,7 @@ var __gwtModuleFunction = $wnd.app;
 var $sendStats = __gwtModuleFunction.__sendStats;
 $sendStats('moduleStartup', 'moduleEvalStart');
 var $gwt_version = "2.8.2";
-var $strongName = '299D1714753F9ED13578504D26E7B32D';
+var $strongName = 'D15068D2419EBD2F2813D478E212B8DA';
 var $gwt = {};
 var $doc = $wnd.document;
 var $moduleName, $moduleBase;
@@ -9414,7 +9414,7 @@ function $lambda$0_26(this$static, event_0){
   var location_0, popStateEvent, state;
   popStateEvent = castToNative(event_0, $wnd.PopStateEvent);
   state = castToJsObject(popStateEvent.state);
-  state != null && state.historyToken != null?$inform(this$static, state.historyToken, state.data):$inform(this$static, (location_0 = ($clinit_DomGlobal() , location_1) , location_0.pathname.substr(1) + ('' + location_0.search) + location_0.hash), state.data);
+  state != null && state.historyToken != null?$inform(this$static, state.historyToken, state.data):$inform(this$static, (location_0 = ($clinit_DomGlobal() , location_1) , location_0.pathname.substr(1) + ('' + location_0.search) + location_0.hash), '');
 }
 
 function $lambda$1_19(token_1, stateJson_3, l_3){
@@ -11720,6 +11720,6 @@ $sendStats('moduleStartup', 'moduleEvalEnd');
 gwtOnLoad(__gwtModuleFunction.__errFn, __gwtModuleFunction.__moduleName, __gwtModuleFunction.__moduleBase, __gwtModuleFunction.__softPermutationId,__gwtModuleFunction.__computePropValue);
 $sendStats('moduleStartup', 'end');
 $gwt && $gwt.permProps && __gwtModuleFunction.__moduleStartupDone($gwt.permProps);
-//# sourceMappingURL=static/gwt/extra/app/symbolMaps/299D1714753F9ED13578504D26E7B32D_sourceMap0.json 
+//# sourceMappingURL=static/gwt/extra/app/symbolMaps/D15068D2419EBD2F2813D478E212B8DA_sourceMap0.json 
 //# sourceURL=app-0.js
 
