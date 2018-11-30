@@ -1,4 +1,4 @@
-D9C92BA562FB335BADD30440889D4858.cache.js
+7CA298C80F53C50BDB670AC5D2F87125.cache.js
 ClientBundle.enableInlining true
 audioElementSupport maybe
 canvasElementSupport maybe
@@ -33,9 +33,6 @@ jre.logging.logLevel ALL
 jre.logging.simpleConsoleHandler DISABLED
 jsinterop.checks DISABLED
 locale default
-restygwt.autodetect.plainText false
-restygwt.conventions.useJavaBeansSpecNaming true
-restygwt.encodeDecode.useGwtJackson false
 rpc.XserializeFinalFields false
 superdevmode off
 touchEventSupport maybe
@@ -43,7 +40,7 @@ user.agent gecko1_8
 videoElementSupport maybe
 webApiUsage modern
 
-D9C92BA562FB335BADD30440889D4858.cache.js
+7CA298C80F53C50BDB670AC5D2F87125.cache.js
 ClientBundle.enableInlining true
 audioElementSupport maybe
 canvasElementSupport maybe
@@ -78,9 +75,6 @@ jre.logging.logLevel ALL
 jre.logging.simpleConsoleHandler DISABLED
 jsinterop.checks DISABLED
 locale default
-restygwt.autodetect.plainText false
-restygwt.conventions.useJavaBeansSpecNaming true
-restygwt.encodeDecode.useGwtJackson false
 rpc.XserializeFinalFields false
 superdevmode off
 touchEventSupport no
@@ -88,7 +82,7 @@ user.agent ie10
 videoElementSupport maybe
 webApiUsage modern
 
-D9C92BA562FB335BADD30440889D4858.cache.js
+7CA298C80F53C50BDB670AC5D2F87125.cache.js
 ClientBundle.enableInlining true
 audioElementSupport no
 canvasElementSupport no
@@ -123,9 +117,6 @@ jre.logging.logLevel ALL
 jre.logging.simpleConsoleHandler DISABLED
 jsinterop.checks DISABLED
 locale default
-restygwt.autodetect.plainText false
-restygwt.conventions.useJavaBeansSpecNaming true
-restygwt.encodeDecode.useGwtJackson false
 rpc.XserializeFinalFields false
 superdevmode off
 touchEventSupport no
@@ -133,7 +124,7 @@ user.agent ie8
 videoElementSupport no
 webApiUsage modern
 
-D9C92BA562FB335BADD30440889D4858.cache.js
+7CA298C80F53C50BDB670AC5D2F87125.cache.js
 ClientBundle.enableInlining true
 audioElementSupport maybe
 canvasElementSupport maybe
@@ -168,9 +159,6 @@ jre.logging.logLevel ALL
 jre.logging.simpleConsoleHandler DISABLED
 jsinterop.checks DISABLED
 locale default
-restygwt.autodetect.plainText false
-restygwt.conventions.useJavaBeansSpecNaming true
-restygwt.encodeDecode.useGwtJackson false
 rpc.XserializeFinalFields false
 superdevmode off
 touchEventSupport no
@@ -178,7 +166,7 @@ user.agent ie9
 videoElementSupport maybe
 webApiUsage modern
 
-D9C92BA562FB335BADD30440889D4858.cache.js
+7CA298C80F53C50BDB670AC5D2F87125.cache.js
 ClientBundle.enableInlining true
 audioElementSupport maybe
 canvasElementSupport maybe
@@ -213,9 +201,6 @@ jre.logging.logLevel ALL
 jre.logging.simpleConsoleHandler DISABLED
 jsinterop.checks DISABLED
 locale default
-restygwt.autodetect.plainText false
-restygwt.conventions.useJavaBeansSpecNaming true
-restygwt.encodeDecode.useGwtJackson false
 rpc.XserializeFinalFields false
 superdevmode off
 touchEventSupport maybe
