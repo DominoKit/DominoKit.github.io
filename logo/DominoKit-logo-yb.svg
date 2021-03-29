@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="362.039" height="362.039" viewBox="0 0 362.039 362.039">
+  <g id="DominoKit" transform="translate(-25.359 34.697)">
+    <rect id="BG" width="256" height="256" rx="24" transform="translate(206.378 -34.697) rotate(45)" fill="#fdd55c"/>
+    <g id="K" transform="translate(163.284 -103.075) rotate(45)">
+      <g id="_" data-name="\" transform="translate(191.144 122.423)">
+        <g id="_5-1" data-name="5-1">
+          <g id="Bottom">
+            <path id="BG-2" data-name="BG" d="M4,0H38.432a0,0,0,0,1,0,0V38.432a0,0,0,0,1,0,0H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" fill="#4fb6ac"/>
+            <g id="_1" data-name="1" transform="translate(16.013 16.013)">
+              <circle id="_1-2" data-name="1" cx="3.203" cy="3.203" r="3.203" fill="#fff"/>
+            </g>
+          </g>
+          <g id="Top" transform="translate(38.432)">
+            <rect id="BG-3" data-name="BG" width="38.432" height="38.432" fill="#1f1e1c"/>
+            <g id="_5" data-name="5" transform="translate(6.405 6.405)">
+              <circle id="_5-2" data-name="5" cx="3.203" cy="3.203" r="3.203" transform="translate(0 19.216)" fill="#fff"/>
+              <circle id="_4" data-name="4" cx="3.203" cy="3.203" r="3.203" fill="#fff"/>
+              <circle id="_3" data-name="3" cx="3.203" cy="3.203" r="3.203" transform="translate(9.608 9.608)" fill="#fff"/>
+              <circle id="_2" data-name="2" cx="3.203" cy="3.203" r="3.203" transform="translate(19.216 19.216)" fill="#fff"/>
+              <circle id="_1-3" data-name="1" cx="3.203" cy="3.203" r="3.203" transform="translate(19.216)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="_2-2" data-name="/" transform="translate(191.11 84)">
+        <g id="_4-1" data-name="4-1" transform="translate(0 0)">
+          <g id="Bottom-2" data-name="Bottom" transform="translate(0 38.432)">
+            <rect id="BG-4" data-name="BG" width="38.432" height="38.432" fill="#14c397"/>
+            <g id="_1-4" data-name="1" transform="translate(16.013 16.013)">
+              <circle id="_1-5" data-name="1" cx="3.203" cy="3.203" r="3.203" fill="#fff"/>
+            </g>
+          </g>
+          <g id="Top-2" data-name="Top">
+            <rect id="BG-5" data-name="BG" width="38.432" height="38.432" fill="#1f1e1c"/>
+            <g id="_4-2" data-name="4" transform="translate(6.405 6.405)">
+              <circle id="_4-3" data-name="4" cx="3.203" cy="3.203" r="3.203" transform="translate(19.216 19.216)" fill="#fff"/>
+              <circle id="_3-2" data-name="3" cx="3.203" cy="3.203" r="3.203" transform="translate(0 19.216)" fill="#fff"/>
+              <circle id="_2-3" data-name="2" cx="3.203" cy="3.203" r="3.203" transform="translate(19.216)" fill="#fff"/>
+              <circle id="_1-6" data-name="1" cx="3.203" cy="3.203" r="3.203" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="Polygon_1" data-name="Polygon 1" d="M29.192,0,58.383,28.792H0Z" transform="translate(140.007 164.022) rotate(-90)" fill="#1f1e1c"/>
+      <path id="Polygon_2" data-name="Polygon 2" d="M29.192,0,58.383,28.792H0Z" transform="translate(246.487 212) rotate(180)" fill="#1f1e1c"/>
+    </g>
+  </g>
+</svg>
